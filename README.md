@@ -1,2 +1,0 @@
-# VueCourse
-Created with CodeSandbox
