@@ -7,30 +7,14 @@
 	<style>
 		.is-danger {
 			background: red;
-			padding: 2rem;
+			padding: 1rem;
 			border-radius: 10px;
 		}
 	</style>
 </head>
 
 <body>
-	<div id="app">
-		<h1>{{fullName}}</h1>
-		<list label="Compras">
-			<list-item item="Leche" slot="before-label" >
-				<span style="color: green">Deslactasoda</span>
-			</list-item>
-			<list-item item="Fruta" v-color-text="'green'"></list-item>
-			
-		</list>
-	</div>
-
-	<div id="app2">
-		<h1 v-is-danger>{{fullName}}</h1>
-		<list label="Compras 2">
-			<list-item item="Leche"></list-item>
-		</list>
-	</div>
+	<div id="app"></div>
 	<script src="src/index.js"></script>
 </body>
 
